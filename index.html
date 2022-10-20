@@ -12,7 +12,7 @@
 
         <body>
 
-                 <h1>Calculadora de Jone Vega del Río   </h1>
+                 <h1>Calculadora de Jone Vega del Rio</h1>
 
                  Number:
 
@@ -21,7 +21,9 @@
                  <p>
 
                          <button onclick="cube()"> x^3 </button>
+
                          <button onclick="sine()"> sin </button>
+
                  </p>
 
                  <script type="text/javascript">
@@ -33,13 +35,14 @@
                                   num.value = Math.pow(num.value, 3);
 
                          }
-                         function power_4() {
 
-var num = document.getElementById("n1");
+                         function sine() {
 
-num.value = Math.pow(num.value, 4);
+                                  var num = document.getElementById("n1");
 
-}
+                                  num.value = Math.sin(num.value);
+
+                         }
 
                  </script>
 
